@@ -1,0 +1,27 @@
+body {
+    width: 40%;
+    margin-left: 30%;
+    text-align: justify;
+    background-color: azure;
+ }
+
+.container {
+    display: flex;
+    background-color: cadetblue;
+    padding-right: 10%;
+}
+
+.column-foto {
+    flex-basis: 25%;
+    display: flex;
+    align-items: center;
+}
+
+.column-text {
+    flex-basis: 75%;
+    padding-left: 10%;
+}
+
+h1 {
+    margin-bottom: 60px;
+}
